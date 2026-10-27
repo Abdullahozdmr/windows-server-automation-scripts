@@ -9,7 +9,6 @@ This repository contains a collection of PowerShell scripts developed during my 
 * **`Deploy-Wallpaper.ps1`**: Creates and links a Group Policy Object (GPO) to deploy a standard corporate wallpaper to domain computers via a network share.
 * **`Link-ADGPO.ps1`**: Links an existing Group Policy Object to a specific Organizational Unit to enforce policies on targeted users or computers.
 * **`employees.csv`**: Sample data file containing user attributes (FirstName, LastName, Username, Department, JobTitle, Password) used by the AD provisioning script.
-* **`employees.csv.xlsx`**: The original Excel workbook version of the employee data.
 
 ## 🚀 Usage
 
