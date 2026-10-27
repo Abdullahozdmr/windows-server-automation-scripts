@@ -15,3 +15,23 @@ This repository contains a collection of PowerShell scripts developed during my 
 1. Clone the repository to your Windows Server environment:
    ```bash
    git clone [https://github.com/yourusername/windows-server-automation-scripts.git](https://github.com/yourusername/windows-server-automation-scripts.git)
+   ```
+2. Open **PowerShell** as an Administrator.
+3. Ensure execution policies allow the scripts to run:
+   ```powershell
+   Set-ExecutionPolicy RemoteSigned
+   ```
+4. Run the desired script. For example, to provision new AD users:
+   ```powershell
+   .\Create-ADUsers.ps1
+   ```
+
+## ⚠️ Prerequisites
+
+- Windows Server with Active Directory Domain Services (AD DS) and DHCP roles installed.
+- Administrative privileges (Domain Admin) to create OUs, Users, DHCP Scopes, and GPOs.
+- Active Directory and GroupPolicy PowerShell modules.
+
+## 👤 Author
+
+**Abdullah Özdemir**
